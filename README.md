@@ -1,13 +1,5 @@
 ## Sales Data Analysis with SQL and Power BI
 
-### Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/deepamkalekar/Sale-Data-Analysis-PowerBI.git
-```
-
 Go to the project directory and open ``` .pbix ``` file with Microsoft Power BI Desktop
 
 ### Data Analysis Using SQL
@@ -48,14 +40,6 @@ Go to the project directory and open ``` .pbix ``` file with Microsoft Power BI 
 
     `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020
 and transactions.market_code="Mark001";`
-
-
-Power BI Dashboard Preview
-============================
-
-![Page1](https://github.com/deepamkalekar/Sale-Data-Analysis-PowerBI/blob/master/Sales-key-insight.png)
-![Page2](https://github.com/deepamkalekar/Sale-Data-Analysis-PowerBI/blob/master/sales-profit-analysis.png)
-![Page3](https://github.com/deepamkalekar/Sale-Data-Analysis-PowerBI/blob/master/sales-performance-insight.png)
 
 
 
